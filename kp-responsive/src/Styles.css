@@ -1,0 +1,44 @@
+:root {
+    --clr-primary-200:#f3eed9;
+    --clr-primary-400:#824936;
+
+    --clr-neutral-100:#fff;
+    --clr-primary-900:#222c24;
+
+
+    --ff-primary:'Roboto',sans-serif;
+    --ff-accent:'Playfair Display',serif;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+body {
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size:1.3125rem;
+    line-height:1.6;
+}
+
+.bg-light {
+    background-color:#f3ee09;
+    color:#b24936;
+}
+
+.text-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.split{
+    display:flex;
+}
+.bg-dark{
+    background-color:#222c29;
+    color:#fff;
+
+}
+.bg-accent{
+    background-color: #b24936;
+}
