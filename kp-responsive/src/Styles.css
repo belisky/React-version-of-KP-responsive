@@ -62,7 +62,7 @@ section {
 
 .container {
     margin:0 auto;
-    width:min(90%,70.5rem);
+    width:min(80%,70.5rem);
 }
 
 .container--narrow {
@@ -83,14 +83,29 @@ section {
    
 }
 
+.split_content {
+    width:100%;
+    margin:0 auto;
+}
+ 
+.split_img {
+    width:100%;
+    margin:0 auto;
+}
+
 @media (min-width:40em) {
     .split {
         flex-direction: row;
+         
+        justify-content: space-between;
     }
 
-    .split > * {
-        flex-basis: 100%;
-    }
+     .split_content {
+         width:63%;
+     }
+     .split_img {
+         width:32%;
+     }
 
     .split > * + * {
         margin-left: 2em;
